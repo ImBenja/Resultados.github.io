@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  background: rgb(255, 255, 255);
+  font-family: "Hanken Grotesk";
+}
+
+.Container-Result {
+  background-image: linear-gradient(
+    175deg,
+    hsl(252, 78%, 61%) 5%,
+    hsl(241, 81%, 54%) 50%
+  );
+  padding: 20px 0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.Container-Text {
+  text-align: center;
+  margin: -4rem 0 0 0;
+}
+
+h6 {
+  font-size: 25px;
+  color: hsl(241, 100%, 89%);
+  font-weight: 700;
+}
+
+.Container-Numero {
+  background: linear-gradient(
+    175deg,
+    rgb(66, 27, 173) 20%,
+    hsla(241, 72%, 46%, 0) 82%
+  );
+  width: 100px;
+  display: grid;
+  margin: -1rem auto;
+  border-radius: 50%;
+  padding: 35px;
+}
+
+.Resultado {
+  font-size: 4em;
+  color: white;
+  -webkit-text-stroke-width: 3px;
+}
+
+.Of-resultado {
+  color: hsl(242, 16%, 56%);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  margin-top: 2.4rem;
+}
+
+.Sub-Result {
+  width: 65%;
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+  margin-left: 18%;
+  font-size: 1.2em;
+}
+
+.Container-Summary {
+  margin: 2rem 0 0 2rem;
+}
+
+.Reaction {
+  background: hsla(0, 100%, 67%, 0.343);
+  padding: 20px 20px;
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Texto-Reaction {
+  color: hsl(0, 100%, 67%);
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.Resultado-Summary {
+  position: absolute;
+  right: 15%;
+}
+
+.Result-Summary {
+  color: black;
+  font-size: 1.3em;
+  font-weight: 900;
+}
+.Max {
+  color: hsl(0, 0%, 38%);
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.Memory {
+  background: hsla(39, 100%, 56%, 0.418);
+  padding: 20px 20px;
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.Texto-Memory {
+  color: hsl(39, 100%, 56%);
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.Verbal {
+  background: hsla(166, 100%, 37%, 0.38);
+  padding: 20px 20px;
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.Texto-Verbal {
+  color: hsl(166, 100%, 37%);
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.Visual {
+  background: hsla(234, 85%, 45%, 0.341);
+  padding: 20px 20px;
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.Texto-Visual {
+  color: hsl(234, 85%, 45%);
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.Button-Container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 1rem 0 0;
+}
+
+.Continuar {
+  text-align: center;
+  border: none;
+  background: hsl(224, 30%, 27%);
+  padding: 1.5rem 2rem;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 700;
+  border-radius: 40px;
+  width: 24rem;
+  cursor: pointer;
+}
+.Continuar:hover {
+  background: linear-gradient(
+    40deg,
+    hsl(252, 78%, 61%) 5%,
+    hsl(241, 81%, 54%) 50%
+  );
+}
+
+@media (min-width: 1024px) {
+  body {
+    background: rgb(212, 211, 210);
+  }
+
+  main {
+    margin: 3rem 0 0 0;
+    padding: 0 18rem;
+  }
+
+  .Container-PC {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Container-Result {
+    border-radius: 20px;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    position: absolute;
+    top: 5.6%;
+    left: 20%;
+    padding: 6rem 0;
+    width: 30%;
+  }
+
+  .Container-Text {
+    margin-top: -8rem;
+  }
+
+  .Container-Summary {
+    background: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 32rem;
+    padding: 0.8rem 4rem;
+  }
+
+  .Resultado-Summary {
+    right: 20%;
+  }
+}
